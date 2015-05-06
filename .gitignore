@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 public/system/movies/images/
+
+/config/s3.yml
+/config/environments/production.rb
