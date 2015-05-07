@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 public/system/movies/images/
+
+# Ignore AWS cred
+config/s3.yml

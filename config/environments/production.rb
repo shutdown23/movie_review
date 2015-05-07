@@ -81,8 +81,8 @@ config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
     :bucket => ENV['rails-apps-production'],
-    :access_key_id => ENV['AKIAJPFO73ZOQGAXMBUA'],
-    :secret_access_key => ENV['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']
+    :access_key_id => ENV['AWS_ACCESS_KEY'],
+    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
 end
